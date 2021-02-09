@@ -70,5 +70,6 @@ The menu will display list of 3 items on the LCD display of the Embest board sim
 1. Encrypt
 2. Decrypt
 3. Safe Control<br />
-For the first two options, when either option is selected the menu screen must display a message requesting the user to enter Shift value 0 to 15 (by pressing one of the keys on the keyboard of the plug-in 0x0 to 0xF). Once the shift value is entered the menu program should transfer control to the corresponding program to process the message from corresponding input file, and output the result to the corresponding output file.
+<!-- end of the list -->
+For the first two options, when either option is selected the menu screen must display a message requesting the user to enter Shift value 0 to 15 (by pressing one of the keys on the keyboard of the plug-in 0x0 to 0xF). Once the shift value is entered the menu program should transfer control to the corresponding program to process the message from corresponding input file, and output the result to the corresponding output file. <br />
 If the Safe Control option (the third option) is selected, then the menu program will transfer control to the Safe Control code to do programming and locking/unlocking the safe.
