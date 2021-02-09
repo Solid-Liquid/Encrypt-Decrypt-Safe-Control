@@ -4,7 +4,7 @@
 ## Ian Hinze, Ian Postel, Jordan May, Derek Baker, Miguel Sanchez
 \
 \
-**Part-1: Encryption**
+**Part-1: Encryption**<br />
 This is a simple shift cipher (similar to the Caesar cipher, which shifts by 3 characters). To encrypt a letter/character, this cipher uses the substitution method, which replaces the character/letter or value with another one. For example, to encrypt the word DEF using a shift of 2 positions from the mapping below the encrypted word will be FGH.
 \
 ABC**DEF**GHIJKLM...
@@ -12,12 +12,12 @@ ABC**DEF**GHIJKLM...
 ABCDE**FGH**IJKLMNO...
 \
 \
-**Part-2: Decryption**
+**Part-2: Decryption**<br />
 This is similar to the encryption process with the exception that the shift occurs in the opposite direction of the encryption. For example, if you want to decrypt the cipher text FGH, you must use the same shift value that was used for encryption. For this example, it is 2 positions in the opposite direction, so looking to the FGH in the second row and the corresponding letters in the first row, you will find the text DEF (decrypted value or plain text).
 Note: the shift value for part-1(encryption), and part-2(decryption) must be variable that can accept any of the values from 0 to 15 (inclusive).
 \
 \
-**Part-3: Safe Control**
+**Part-3: Safe Control**<br />
 Program the control unit for an electronic safe.
 Each time an input key is pressed, the red LEDs should blink to indicate that a key is pressed. For example:
 1. If any of the blue keypad keys is pressed both red LEDs must blink.
@@ -65,7 +65,7 @@ To forget an old code:
 9. If the codes did not match 8-segment displays 'E'<br />
 \
 \
-**Part-4: Menu**
+**Part-4: Menu**<br />
 The menu will display list of 3 items on the LCD display of the Embest board simulator screen for the user to select one of them. The list must include:
 1. Encrypt
 2. Decrypt
