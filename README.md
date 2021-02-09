@@ -1,7 +1,6 @@
 # Encrypt-Decrypt-Safe-Control
-## Team project to implement a virtual safe in ARM Assembly. Also includes password encryption and decryption using a shift cipher.
-## For use with ARMSim, as the safe component relies on the Embest Board plugin. 
-## Ian Hinze, Ian Postel, Jordan May, Derek Baker, Miguel Sanchez
+## Team project to implement a virtual safe in ARM Assembly. Also includes password encryption and decryption using a shift cipher. For use with ARMSim, as the safe component relies on the Embest Board plugin. 
+### Ian Hinze, Ian Postel, Jordan May, Derek Baker, Miguel Sanchez
 \
 \
 **Part-1: Encryption**<br />
@@ -26,13 +25,13 @@ Each time an input key is pressed, the red LEDs should blink to indicate that a 
 
 To distinguish the output letter from numbers on eight segment LEDs, you must display the period (“.”) segment. For example, an output of the letter “B” should also have the period displayed but an output of the number “8” should not display a period.<br />
 
-The 8-Segment display and LEDs will show the status of the safe:
- U: unlocked
- L: locked
- P: programming a code
- C: confirming a new code
- F: forgetting an old code
- A: a programming request was successful
+The 8-Segment display and LEDs will show the status of the safe:<br />
+ U: unlocked<br />
+ L: locked<br />
+ P: programming a code<br />
+ C: confirming a new code<br />
+ F: forgetting an old code<br />
+ A: a programming request was successful<br />
  E: programming fault.<br />
 
 The safe starts unlocked. The safe cannot be locked if there are no valid codes.
@@ -63,12 +62,10 @@ To forget an old code:
 7. Press the right black button a third time
 8. If the codes match 8-segment displays 'A'
 9. If the codes did not match 8-segment displays 'E'<br />
-<a/>
 \
 \
 **Part-4: Menu**<br />
 The menu will display list of 3 items on the LCD display of the Embest board simulator screen for the user to select one of them. The list must include:
-<a>
 1. Encrypt
 2. Decrypt
 3. Safe Control<br />
