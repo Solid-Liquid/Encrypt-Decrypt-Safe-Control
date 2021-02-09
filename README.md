@@ -68,6 +68,7 @@ To forget an old code:
 \
 **Part-4: Menu**<br />
 The menu will display list of 3 items on the LCD display of the Embest board simulator screen for the user to select one of them. The list must include:
+<a>
 1. Encrypt
 2. Decrypt
 3. Safe Control<br />
