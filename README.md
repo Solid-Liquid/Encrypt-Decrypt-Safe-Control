@@ -1,7 +1,7 @@
 # Encrypt-Decrypt-Safe-Control
 ### Team project to implement a virtual safe in ARM Assembly. Also includes password encryption and decryption using a shift cipher. For use with ARMSim, as the safe component relies on the Embest Board plugin. 
 #### Ian Hinze, Ian Postel, Jordan May, Derek Baker, Miguel Sanchez
-
+\
 **Part-1: Encryption**<br />
 This is a simple shift cipher (similar to the Caesar cipher, which shifts by 3 characters). To encrypt a letter/character, this cipher uses the substitution method, which replaces the character/letter or value with another one. For example, to encrypt the word DEF using a shift of 2 positions from the mapping below the encrypted word will be FGH.
 \
@@ -62,10 +62,11 @@ To forget an old code:
 7. Press the right black button a third time
 8. If the codes match 8-segment displays 'A'
 9. If the codes did not match 8-segment displays 'E'<br />
+<!-- end of the list -->
 \
 \
 **Part-4: Menu**<br />
-The menu will display list of 3 items on the LCD display of the Embest board simulator screen for the user to select one of them. The list must include:<br />
+The menu will display list of 3 items on the LCD display of the Embest board simulator screen for the user to select one of them. The list must include:
 1. Encrypt
 2. Decrypt
 3. Safe Control<br />
