@@ -1,8 +1,7 @@
 # Encrypt-Decrypt-Safe-Control
-## Team project to implement a virtual safe in ARM Assembly. Also includes password encryption and decryption using a shift cipher. For use with ARMSim, as the safe component relies on the Embest Board plugin. 
-### Ian Hinze, Ian Postel, Jordan May, Derek Baker, Miguel Sanchez
-\
-\
+### Team project to implement a virtual safe in ARM Assembly. Also includes password encryption and decryption using a shift cipher. For use with ARMSim, as the safe component relies on the Embest Board plugin. 
+#### Ian Hinze, Ian Postel, Jordan May, Derek Baker, Miguel Sanchez
+
 **Part-1: Encryption**<br />
 This is a simple shift cipher (similar to the Caesar cipher, which shifts by 3 characters). To encrypt a letter/character, this cipher uses the substitution method, which replaces the character/letter or value with another one. For example, to encrypt the word DEF using a shift of 2 positions from the mapping below the encrypted word will be FGH.
 \
@@ -26,18 +25,19 @@ Each time an input key is pressed, the red LEDs should blink to indicate that a 
 To distinguish the output letter from numbers on eight segment LEDs, you must display the period (“.”) segment. For example, an output of the letter “B” should also have the period displayed but an output of the number “8” should not display a period.<br />
 
 The 8-Segment display and LEDs will show the status of the safe:<br />
- U: unlocked<br />
- L: locked<br />
- P: programming a code<br />
- C: confirming a new code<br />
- F: forgetting an old code<br />
- A: a programming request was successful<br />
- E: programming fault.<br />
+* U: unlocked<br />
+* L: locked<br />
+* P: programming a code<br />
+* C: confirming a new code<br />
+* F: forgetting an old code<br />
+* A: a programming request was successful<br />
+* E: programming fault.<br />
 
 The safe starts unlocked. The safe cannot be locked if there are no valid codes.
-To lock the safe (this should work at ANY time):
-1. press the left black button (assuming you have valid code).
-To unlock the safe (This should work ONLY when the safe is locked):
+To lock the safe (this should work at ANY time):<br />
+1. press the left black button (assuming you have valid code).<br />
+
+To unlock the safe (This should work ONLY when the safe is locked):<br />
 1. Enter a valid code sequence
 2. Press the left black button.<br />
 
@@ -65,7 +65,7 @@ To forget an old code:
 \
 \
 **Part-4: Menu**<br />
-The menu will display list of 3 items on the LCD display of the Embest board simulator screen for the user to select one of them. The list must include:
+The menu will display list of 3 items on the LCD display of the Embest board simulator screen for the user to select one of them. The list must include:<br />
 1. Encrypt
 2. Decrypt
 3. Safe Control<br />
