@@ -62,7 +62,8 @@ To forget an old code:
 6. Enter the same code sequence
 7. Press the right black button a third time
 8. If the codes match 8-segment displays 'A'
-9. If the codes did not match 8-segment displays 'E'<br /><a/>
+9. If the codes did not match 8-segment displays 'E'<br />
+<a/>
 \
 \
 **Part-4: Menu**<br />
